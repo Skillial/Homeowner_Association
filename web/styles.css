@@ -1,0 +1,125 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 04 16, 23, 10:26:38 AM
+    Author     : ccslearner
+*/
+@font-face {
+  font-family: 'Quicksand';
+  src: url('Quicksand.ttf') format('truetype');
+}
+.container {
+    display: flex;
+    height: 100%; /* make sure the container has a fixed height */
+}
+.button, input[type="submit"]{
+    height: auto;
+    background-color: #DCD6F7;
+    border-radius: 10px;
+    border: 0px;
+    padding: 5px;
+    align-self: center;
+    color: black;
+}
+.button:hover, input[type="submit"]:hover {
+    background-color: #ECE6FF;
+}
+
+input[type='submit'] {
+    width: 100%;
+}
+.rectangle {
+    height: auto;
+    background-color: #A6B1E1;
+    border-radius: 10px;
+    max-width: 100%;
+    align-items: center;
+    margin: auto;
+    min-width: 480px;
+}
+body {
+    background-color: #424874;
+    font-family: Quicksand, Carlito;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+div {
+
+}
+h1 {
+    padding: 0px;
+    margin: 0px;
+}
+h2 {
+    padding: 0px;
+    margin: 0px;
+}
+h3 {
+    padding: 0px;
+    margin: 0px;
+}
+input[type="text"], input[type="date"], input[type="number"], select, textarea{
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    box-sizing: border-box;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    margin-bottom: 1px;
+    text-align: right;
+}
+input[type="text"] {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+select option:checked {
+  background-color: #07a;
+  color: #fff;
+}
+input[type='checkbox'] {
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 0;
+    font-size: 15px;
+    text-align: center;
+    vertical-align: middle;
+    content:' ';
+}
+
+input[type='checkbox']:after {
+    content: ' ';
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background: white;
+    border-radius: 5px;
+    color:white;
+}
+
+input[type='checkbox']:checked:after {
+    content: ' ';
+    background: #07A;
+    border:2px;
+    width: 12px;
+    height: 12px;
+    border-color: white;
+    border-style: solid;
+}
+
+input[type='checkbox']:hover {
+    cursor: pointer
+}
+
+textarea {
+    text-align: left;
+    width: 100%;
+    resize: none;
+    margin-bottom: 3px;
+}
